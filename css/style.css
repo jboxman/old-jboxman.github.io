@@ -1,0 +1,111 @@
+body {
+  position: relative;
+  background: #F7F7F7;
+  padding-top: 60px;
+}
+
+/* Navigation */
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+.navbar-nav > li > a {
+  color: #000 !important;
+}
+.navbar-nav > li > a:hover .fa {
+  color: red !important;
+}
+.active {
+  text-decoration: underline;
+}
+.navbar-nav > li > a:hover {
+  text-decoration: underline;
+}
+
+span {
+  font-weight: bold;
+}
+.accent, .fa {
+  color: #F27A18 !important;
+}
+
+#main {
+  margin: 0 auto 0 auto !important;
+ -webkit-box-shadow: 5px 5px 5px 2px #888;
+  box-shadow: 5px 5px 5px 2px #888;
+  background-color: #FFF;
+  width: 90%;
+}
+header {
+  padding-top: 1.5em;
+}
+.page-header {
+  margin: 0 !important;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+img {
+  padding-top: 0.5em;
+  width: 200px;
+}
+blockquote {
+  font-size: 1.1em;
+  border-left: 5px solid #F27A18;
+}
+blockquote footer {
+  margin-top: 0.5em;
+  color: #F27A18;
+}
+
+section {
+  background: #FFF;
+  padding: 0 5px;
+  /*
+  padding: 60px 5px 0 5px;
+  */
+}
+
+#footer {
+  border-top: 1px #ECECEC solid;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+/*
+https://css-tricks.com/examples/DefinitionList/css/style.css
+*/
+
+dl {
+/*  width: 20em; */
+/*  height: 10em; */
+/*  float: left; */
+/*  margin-right: 2em; */
+}
+	
+dt {
+  font-size: 1.1em;
+  margin-bottom: 0.7em;
+}
+
+dd {
+  color: #000;
+  line-height: 1.5em;
+  margin-left: 1em;
+}
+
+dd:first-of-type {
+  font-style: italic;
+}
+
+dd:last-of-type:before {
+  /*
+  content:'\2022\20'
+  */
+  content:'\2713\20'
+}
