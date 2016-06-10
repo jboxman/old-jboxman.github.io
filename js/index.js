@@ -18,7 +18,16 @@ $('body').scrollspy({
 
 // http://stackoverflow.com/questions/9288482/how-do-i-set-the-offset-for-scrollspy-in-bootstrap
 $('.navbar li a').click(function(event) {
+    var $el = $(this);
+    var href = $el.attr('href');
   event.preventDefault();
-  $($(this).attr('href'))[0].scrollIntoView();
-  $(this).attr('href') == '#main' ? scrollBy(0, -window.innerHeight) : scrollBy(0, -(shadow-offset));
+  $($el.attr('href'))[0].scrollIntoView();
+  if(href == '#main') {
+    scrollBy(0, -window.innerHeight);
+  }
+  else {
+    scrollBy(0, shadow-offset);
+    $('.navbar li').removeClass('active');
+    $('[href=' + href + ']').parent().addClass('active');
+  }
 });
