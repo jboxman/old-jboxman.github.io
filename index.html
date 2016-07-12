@@ -1,204 +1,323 @@
 <!DOCTYPE html>
-<html>
+<html class="ui container">
   <head>
     <meta charset="UTF-8">
     <title>Jason Boxman: Software Developer</title>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel='stylesheet prefetch' href='css/bootstrap.min.css'>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.1/semantic.min.css'>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
 
   <body>
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div id="nav" class="container-fluid">
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+    <div class="" id="main">
+  <div class="ui basic segment">
+
+    <h2 class="ui centered header">
+      Jason Boxman
+    <div class="sub header">
+      Software Developer
     </div>
-    <ul class="nav navbar-nav">
-      <li><a href="#main" class="age-scroll"><i class="fa fa-arrow-up" aria-hidden="true"></i> Top</a></li>
-      <li><a href="#education" class="page-scroll"><i class="fa fa-book" aria-hidden="true"></i> Education</a></li>
-      <li><a href="#projects" class="page-scroll"><i class="fa fa-code" aria-hidden="true"></i> Projects</a></li>
-      <li><a href="#testimonials" class="page-scroll"><i class="fa fa-commenting-o" aria-hidden="true"></i> Testimonials</a></li>
-    </ul>
+  </h2>
+
+  <img class="ui centered rounded small image" src="./images/self.jpg">
+
+<!--
+  <img class="ui centered rounded small image" src="https://dl.dropboxusercontent.com/s/x6r7ym0abzqef0x/UCFSOS040114_0097.jpg?dl=0">
+-->
+    <!--
+    <img class="ui centered rounded small image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=">
+-->
+    <p></p>
+    <div class="ui center aligned container">
+      <div class="ui mini compact borderless text menu">
+        <div class="item">
+          <a class="ui button" href="mailto:jasonb@edseek.com">
+            <i class="orange mail icon"></i> Email
+          </a>
+        </div>
+
+        <div class="item">
+          <a class="ui button" href="http://github.com/jboxman">
+            <i class="orange github icon"></i> Github
+          </a>
+        </div>
+
+        <div class="item">
+          <a class="ui button" href="http://linkedin.com/in/jboxman">
+            <i class="orange linkedin icon"></i> LinkedIn
+          </a>
+        </div>
+
+        <div class="item">
+          <a class="ui button" href="http://twitter.com/JasonBoxman">
+            <i class="orange twitter icon"></i> Twitter
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="ui divider"></div>
+
   </div>
-</nav>
-<div id="main">
-  <header class="page-header text-center">
-    <img class="img-responsive img-rounded center-block" src="images/self.jpg"></img>
-    <h1>Jason Boxman</h1>
-    <p>
-      <span>Software Developer</span>
-    </p>
-  <p>
-  </p>
-    <a class="btn btn-default" href="mailto:jasonb@edseek.com" role="button"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</a>
-    <a class="btn btn-default" href="http://github.com/jboxman" role="button"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-    <a class="btn btn-default" href="http://linkedin.com/in/jboxman" role="button"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
-    <a class="btn btn-default" href="http://twitter.com/JasonBoxman" role="button"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
-  </header>
 
-  <section id="education" class="container-fluid">
-    <h2><i class="fa fa-book" aria-hidden="true"></i> Professional development</h2>
-    <div class="row">
-      <div class="col-xs-1">
-        &nbsp;
-      </div>
-      <div class="col-xs-5">
-        <dl>
-          <dt>Health Care Informatics Masters, 2014</dt>
-          <dd>University of Central Florida, Orlando, FL</dd>
-          <dd>Data Architecture & Modeling, 	System Analysis & Design, 	Health Care Databases
-</dd>
-        </dl>
-      </div>
-      <div class="col-xs-5">
-	          <dl>
-          <dt>Business Bachelors, 2012
-</dt>
-          <dd>Excelsior College, Albany, NY
-</dd>
-              <dd>Business Strategy, Business Ethics, Supply Chain Management</dd>
-        </dl>
+  <div class="ui basic segment">
+    <h3 class="ui centered header">
+    <i class="orange book icon"></i>
+    Education
+</h3>
 
+    <div class="ui four column very relaxed divided grid">
+      <div class="column"></div>
+      <div class="column">
+        <h5 class="ui header">
+      Health Informatics, MS
+      <div class="sub header">
+      University of Central Florida
       </div>
-      <div class="col-xs-1">
-        &nbsp;
+    </h5>
+
+        <div class="ui tiny list">
+          <div class="item">
+            <i class="book icon"></i>
+            <div class="content">
+              Data Architecture & Modeling
+            </div>
+          </div>
+          <div class="item">
+            <i class="book icon"></i>
+            <div class="content">
+              System Analysis & Design
+            </div>
+          </div>
+          <div class="item">
+            <i class="book icon"></i>
+            <div class="content">
+              Health Care Databases
+            </div>
+          </div>
+        </div>
       </div>
 
-  </section>
-
-  <section id="projects" class="container-fluid">
-    <h2><i class="fa fa-code" aria-hidden="true"></i> Projects</h2>
-    <div class="row">
-      <div class="col-xs-3">
-
-        <dl>
-          <dt><a href="http://jboxman.github.io/fcc-frontend-tictactoe/">Tic-Tac-Toe</a></dt>
-          <dd>An interactive game of Tic Tac Toe.</dd>
-          <dd>HTML5, CSS3, JavaScript, jQuery, Bootstrap, MicroEvent</dd>
-        </dl>
-
+      <div class="column">
+        <h5 class="ui header">
+      Business, BS
+      <div class="sub header">
+      Excelsior College
       </div>
-      <div class="col-xs-3">
+    </h5>
 
-        <dl>
-          <dt><a href="http://jboxman.github.io/fcc-frontend-simon/">Simon</a></dt>
-          <dd>A Simon game</dd>
-          <dd>HTML5, HTML Audio, CSS3, JavaScript, jQuery, Bootstrap, MicroEvent, Promises/A+</dd>
-        </dl>
+        <div class="ui tiny list">
+          <div class="item">
+            <i class="book icon"></i>
+            <div class="content">
+              Business Strategy
+            </div>
+          </div>
 
+          <div class="item">
+            <i class="book icon"></i>
+            <div class="content">
+              Business Ethics
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="book icon"></i>
+            <div class="content">
+              Supply Chain Management
+            </div>
+          </div>
+
+        </div>
       </div>
-      <div class="col-xs-3">
-
-        <dl>
-          <dt><a href="http://jboxman.github.io/fcc-frontend-weather/">Current local weather</a></dt>
-          <dd>Display local weather forecast based upon a reverse lookup of requester IP address</dd>
-          <dd>HTML5, CSS3, Bootstrap, JavaScript, jQuery, OpenWeatherMap API, JSON</dd>
-        </dl>
-
-      </div>
-
-      <div class="col-xs-3">
-        <dl>
-          <dt><a href="http://jboxman.github.io/fcc-frontend-pomodoro/">Pomodoro</a></dt>
-          <dd>A Pomodoro countdown clock implementation</dd>
-          <dd>HTML5, HTML5 Audio, CSS3, Bootstrap, JavaScript, jQuery</dd>
-        </dl>
-      </div>
+          <div class="column"></div>
 
     </div>
 
-    <div class="row">
-      <div class="col-xs-3">
+  </div>
 
-        <dl>
-          <dt><a href="http://jboxman.github.io/fcc-frontend-quotemachine/">Random quote generator</a></dt>
-          <dd>Display a random inspiration quote</dd>
-          <dd>HTML5, CSS3, Bootstrap, JavaScript, jQuery, JSONP</dd>
-        </dl>
+  <div class="ui basic segment">
+    <h3 class="ui centered header">
+    <i class="orange code icon"></i>
+    Porfolio
+</h3>
 
+    <div class="ui centered cards">
+
+      <div class="card">
+        <div class="content">
+          <h4 class="ui sub header">
+          Tic-Tac-Toe
+        </h4>
+          <div class="description">
+            <p>
+              An interactive game of Tic Tac Toe. Uses HTML5, CSS3, JavaScript, jQuery, Bootstrap, MicroEvent.
+            </p>
+            <a class="ui horizontal label" href="http://jboxman.github.io/fcc-frontend-tictactoe/">Page</a>
+            <a class="ui horizontal label" href="https://github.com/jboxman/fcc-frontend-tictactoe">Github
+    </a>
+          </div>
+        </div>
       </div>
-      <div class="col-xs-3">
 
-        <dl>
-          <dt><a href="http://jboxman.github.io/fcc-frontend-twitchtv/">Twitch.tv streamers</a></dt>
-          <dd>A tabular status report for a predetermined list of Twitch users</dd>
-          <dd>HTML5, CSS3, JavaScript, jQuery, Bluebird, Promises/A+, Twitch.tv API, JSON</dd>
-        </dl>
-
+      <div class="card">
+        <div class="content">
+          <h4 class="ui sub header">
+          Simon
+        </h4>
+          <div class="description">
+            <p>
+              A Simon game. Uses HTML5, HTML Audio, CSS3, JavaScript, jQuery, Bootstrap, MicroEvent, Promises/A+.
+            </p>
+            <a class="ui horizontal label" href="http://jboxman.github.io/fcc-frontend-simon/">Page</a>
+            <a class="ui horizontal label" href="https://github.com/jboxman/fcc-frontend-simon">Github
+    </a>
+          </div>
+        </div>
       </div>
-      <div class="col-xs-3">
 
-        <dl>
-          <dt><a href="http://jboxman.github.io/fcc-dataviz-d3-forcedirected/">Force directed graph</a></dt>
-          <dd>A D3 visualization of the relationship between camper news domains and posters</dd>
-          <dd>HTML5, D3, SVG, JavaScript, Ramda, JSON</dd>
-        </dl>
 
+      <div class="card">
+        <div class="content">
+          <h4 class="ui sub header">
+          Local Weather
+        </h4>
+          <div class="description">
+            <p>
+              Display local weather forecast based upon a reverse lookup of requester IP address. Uses HTML5, CSS3, Bootstrap, JavaScript, jQuery, OpenWeatherMap API, JSON.
+            </p>
+            <a class="ui horizontal label" href="http://jboxman.github.io/fcc-frontend-weather/">Page</a>
+            <a class="ui horizontal label" href="https://github.com/jboxman/fcc-frontend-weather">Github
+    </a>
+          </div>
+        </div>
       </div>
-      <div class="col-xs-3">
 
-        <dl>
-          <dt><a href="http://jboxman.github.io/fcc-dataviz-d3-heatmap/">Heat map</a></dt>
-          <dd>A D3 visualization of global temperature deltas by month from the historical average in celsius</dd>
-          <dd>HTML5, D3, SVG, JavaScript, JSON</dd>
-        </dl>
 
+      <div class="card">
+        <div class="content">
+          <h4 class="ui sub header">
+          Pomodoro Timer
+        </h4>
+          <div class="description">
+            <p>
+              A Pomodoro countdown clock implementation. Uses HTML5, HTML5 Audio, CSS3, Bootstrap, JavaScript, jQuery.
+            </p>
+            <a class="ui horizontal label" href="http://jboxman.github.io/fcc-frontend-pomodoro/">Page</a>
+            <a class="ui horizontal label" href="https://github.com/jboxman/fcc-frontend-pomodoro">Github
+    </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <h4 class="ui sub header">
+          Force directed graph
+        </h4>
+          <div class="description">
+            <p>
+              A D3 visualization of the relationship between camper news domains and posters. Uses HTML5, D3, SVG, JavaScript, Ramda, JSON.
+            </p>
+            <a class="ui horizontal label" href="http://jboxman.github.io/fcc-dataviz-d3-forcedirected/">Page</a>
+            <a class="ui horizontal label" href="https://github.com/jboxman/fcc-dataviz-d3-forcedirected/">Github</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <h4 class="ui sub header">
+          Heat map
+        </h4>
+          <div class="description">
+            <p>
+              A D3 visualization of global temperature deltas by month from the historical average in celsius. Uses HTML5, D3, SVG, JavaScript, JSON.
+            </p>
+            <a class="ui horizontal label" href="http://jboxman.github.io/fcc-dataviz-d3-heatmap/">Page</a>
+            <a class="ui horizontal label" href="https://github.com/jboxman/fcc-dataviz-d3-heatmap/">Github
+    </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <h4 class="ui sub header">
+          Globe
+        </h4>
+          <div class="description">
+            <p>
+              A D3 visualization of meteor impacts scaled by size of object. Uses HTML5, D3, SVG, JavaScript, Promises/A+, JSON.
+            </p>
+            <a class="ui horizontal label" href="http://jboxman.github.io/fcc-dataviz-d3-globe/">Page</a>
+            <a class="ui horizontal label" href="https://github.com/jboxman/fcc-dataviz-d3-globe/">Github
+    </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <h4 class="ui sub header">
+          Scatter plot
+        </h4>
+          <div class="description">
+            <p>
+              A D3 visualization of finish cyclist finish times segmented by whether each cyclist was later found to have used performance enhancing substances. Uses HTML5, D3, SVG, JavaScript, JSON.
+            </p>
+            <a class="ui horizontal label" href="http://edseek.com/fcc-dataviz-d3-scatterplot/">Page</a>
+            <a class="ui horizontal label" href="https://github.com/jboxman/fcc-dataviz-d3-scatterplot/">Github
+    </a>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="ui basic segment" id="endorsements">
+    <h3 class="ui centered header">
+    <i class="orange commenting icon"></i>
+    Endorsements
+</h3>
+    <div class="ui raised padded segment">
+      <p>
+        Jason was one of the best technical writers I've had the pleasure of working with because of his unique blend of engineering, writing and a curiosity to learn and explain so that anyone can understand the subject matter. He has written low-level technical
+        API documentation with his own code samples to high-level meeting summaries which have been used for internal documentation. I believe communication skills are the most important quality of a good engineer and Jason excels at it. He comes highly
+        recommended from me.
+      </p>
+      <div class="ui bottom right attached pointing orange label">Benjamin King, CEO at Keep it Simple Technologies</div>
+    </div>
+
+
+    <div class="ui raised padded segment">
+      <p>
+        Jason is an experienced person in technology, trustworthy and delivers on time. I'm very pleased with the work that we have done together. He added significant amount of value to our project with his consultation, and we have learned a lot from him.
+      </p>
+      <div class="ui bottom right attached pointing orange label">
+        Ahmad Al-Ibrahim, Product Development Manager at Gulfnet Communications
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-xs-3">
-        &nbsp;
-      </div>
-      <div class="col-xs-3">
+  </div>
 
-        <dl>
-          <dt><a href="http://jboxman.github.io/fcc-dataviz-d3-globe/">Globe</a></dt>
-          <dd>A D3 visualization of meteor impacts scaled by size of object</dd>
-          <dd>HTML5, D3, SVG, JavaScript, Promises/A+, JSON</dd>
-        </dl>
-
-      </div>
-      <div class="col-xs-3">
-
-        <dl>
-          <dt><a href="http://jboxman.github.io/fcc-dataviz-d3-scatterplot/">Scatter plot</a></dt>
-          <dd>A D3 visualization of finish cyclist finish times segmented by whether each cyclist was later found to have used performance enhancing substances</dd>
-          <dd>HTML5, D3, SVG, JavaScript, JSON</dd>
-        </dl>
-
-      </div>
-      <div class="col-xs-3">
-        &nbsp;
-      </div>
-
-    </div>
-  </section>
-
-  <section id="testimonials">
-    <h2><i class="fa fa-commenting-o" aria-hidden="true"></i> Recommendations</h2>
-    <blockquote>
-      Jason was one of the best technical writers I've had the pleasure of working with because of his unique blend of engineering, writing and a curiosity to learn and explain so that anyone can understand the subject matter. He has written low-level technical
-      API documentation with his own code samples to high-level meeting summaries which have been used for internal documentation. I believe communication skills are the most important quality of a good engineer and Jason excels at it. He comes highly
-      recommended from me.
-      <footer>Benjamin King, CEO at Keep it Simple Technologies
-      </footer>
-    </blockquote>
-    <blockquote>
-      Jason is an experienced person in technology, trustworthy and delivers on time. I'm very pleased with the work that we have done together. He added significant amount of value to our project with his consultation, and we have learned a lot from him.
-      <footer>Ahmad Al-Ibrahim, Product Development Manager at Gulfnet Communications
-      </footer>
-    </blockquote>
-  </section>
-  <footer id="footer" class="text-center">
-    Copyright 2016, Jason Boxman.
-  </footer>
 </div>
 
-    <script src='js/jquery.min.js'></script>
-    <script src='js/jquery-ui.min.js'></script>
-    <script src='js/bootstrap.min.js'></script>
-    <script src="js/index.js"></script>
+<footer>
+  <p>Copyright 2016, Jason Boxman.</p>
+</footer>
+
+
+    <script src='./js/jquery.min.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js'></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
